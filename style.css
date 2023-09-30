@@ -1,0 +1,21 @@
+body {
+    width: 200px;
+    height: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+input {
+    width: 100px;
+    margin: 10px;
+}
+
+button {
+    width: 50px;
+    margin: 10px;
+}
+
+span {
+    display: block;
+    margin: 10px;
+}
