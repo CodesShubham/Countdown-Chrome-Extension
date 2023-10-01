@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            min-width: 300px;
+            min-height: 200px;
+        }
+        #countdown {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Countdown Timer Extension</h1>
+    <label for="datetime">Enter a future date and time:</label>
+    <input type="datetime-local" id="datetime">
+    <button id="startButton">Run</button>
+    <div id="countdown"></div>
+    <script src="popup.js"></script>
+</body>
+</html>

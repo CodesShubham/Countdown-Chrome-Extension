@@ -1,17 +1,14 @@
 {
-    "manifest_version": 2,
-    "name": "Countdown Timer",
-    "version": "1.0",
-    "description": "A simple chrome extension that shows a countdown timer in the browser action badge.",
-    "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "index.html"
-    },
-    "background": {
-      "scripts": ["background.js"]
-    },
-    "permissions": [
-      "activeTab"
-    ]
+  "manifest_version": 3,
+  "name": "Countdown Timer Extension",
+  "version": "1.0",
+  "description": "A simple countdown timer extension",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
   }
-  
+}
