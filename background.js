@@ -1,4 +1,3 @@
-// background.js
 
 let countdownInterval;
 let targetDateTime;
