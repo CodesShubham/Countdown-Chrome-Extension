@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    min-width: 400px;
-    /* min-height: 300px; */
+    min-width: 300px;
+    min-height: 150px;
 }
 
 #countdown {
